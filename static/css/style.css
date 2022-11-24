@@ -1,0 +1,162 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    overflow-y: hidden;
+    padding: 5px;
+    background-color: #151728;
+}
+
+#tr,#at {
+    display: inline;
+    font-family: "DM Sans", sans-serif;
+    background-color: #151728;
+    color: white;
+    padding: 10px;
+}
+
+#tr {
+    padding-left: 150px;
+}
+
+#at {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+
+#Queue {
+    background-color: #6b5b95;
+    border: 0px;
+    padding: 5px;
+    overflow-y: auto;
+    float: right;
+    width: 49%;
+    border-radius: 15px;
+    height: 730px;
+}
+
+#Recommend {
+    background-color: #6b5b95;
+    border: 0px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    width: 49%;
+    border-radius: 15px;
+    height: 730px;
+}
+
+.title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 3mm;
+    color: #ccc8db;
+    float: none;
+}
+
+#que {
+    margin: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#btn {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    background-color: #151728;
+    color: #ccc8db;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 25px;
+    float: right;
+    transition: 0.2s ease-in;
+}
+
+#btn:hover {
+    transition: 0.5s ease-out;
+    color: #151728;
+    background-color: #ccc8db;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+.S {
+    display: grid;
+    grid-template-columns: 100px 350px 200px 10px;
+    background-color: #c5c0d8;
+    border-radius: 10px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 2.5px;
+    padding: 6px;
+}
+
+#song {
+    padding-top: 10px;
+    overflow-y: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+    height: 1000px;
+}
+
+#Song {
+    padding-top: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    overflow: auto;
+    display: block;
+    height: 1000px;
+}
+
+#songs:hover {
+    background-color: #151728;
+    color: #c5c0d8;
+    transition: 0.3s ease-in-out;
+}
+
+#artists {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 270px
+}
+
+#yr {
+    display: none;
+}
+
+img {
+    width: 60px;
+    padding-left: 10px;
+}
+
+#songs {
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+    animation-timing-function: 0.5s ease-in;
+}
+
+@keyframes slideUp {
+    0%,
+    50% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+     
+    60%,
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    
+    }
+  }

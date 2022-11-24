@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico'>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Music Recommendation System</title>
+</head>
+<body onload="">
+    <!--  -->
+    <div id="Recommend">
+        <!--  -->
+        <p class="title">Spote5</p>
+        <input type="button" id="btn" value="Recommend">
+        <p id="tr">Track</p><p id="at">Artist</p>
+        <br/>
+        <div id="song">
+            <!-- <script src="./static/js/getSong.js"></script> -->
+            <script src="./static/js/fetch.js">
+            </script>
+        </div>
+    </div>
+    <div id="Queue">
+        <p id="que">Queue</p>
+        <br/><br/>
+        <p id="tr">Track</p><p id="at">Artist</p>
+        <div id="Song">
+            <script src="./static/js/fetch.js">
+            </script>
+        </div>
+    </div>
+</body>
+</html>
