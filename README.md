@@ -23,7 +23,7 @@ To run the application in development server :
 ```
 python app.py
 ```
-Now the application run in localhost : `http://127.0.0.1:5000/`:
+Now the application run in localhost : `http://127.0.0.1:5000/` 
 
 
 ## Demo
